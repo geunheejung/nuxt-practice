@@ -56,7 +56,7 @@ export default {
     },
     mounted() {
         this.$nextTick(() => {
-            // 클라이언트 단에서는  접근 불가능한 프로퍼티인듯.
+            // 클라이언트 단에서는   접근 불가능한 프로퍼티인듯.
             console.log(this.$nuxt.$loading);
             this.$nuxt.$loading.start();
             setTimeout(() => {
